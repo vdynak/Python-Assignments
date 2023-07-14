@@ -1,0 +1,25 @@
+//victoria dynak
+//victoria.dynak61@login.cuny.edu
+//december 5 2022
+//credit hours
+
+#include <iostream>
+using namespace std;
+int main(){
+    int hours;
+    cout <<"Enter number of credit hours taken: ";
+    cin>>hours;
+    if(hours<28){
+        cout<<"freshman";
+    }
+    else if(hours>=28 and hours<61){
+        cout<<"sophomore";
+    }
+    else if(hours>=61 and hours<94){
+        cout<<"junior";
+    }
+    else if(hours>=94){
+        cout<<"senior";
+    }
+    return 0;
+}

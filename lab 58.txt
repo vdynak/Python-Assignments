@@ -1,0 +1,24 @@
+//victoria dynak
+//victoria.dynak61@login.cuny.edu
+//december 5 2022
+//triangle
+
+#include <iostream>
+using namespace std;
+int main(){
+    int number;
+    char character;
+    
+    cout<<"Enter an int: ";
+    cin>>number;
+    cout<<"Enter a symbol other than space: ";
+    cin>>character;
+    
+    for(int i=1; i<=number; i++){
+        for(int j =1; j<=i; j++){
+            cout<<character;
+        }
+        cout<<"\n";
+    }
+    return 0;
+}

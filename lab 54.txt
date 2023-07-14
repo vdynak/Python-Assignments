@@ -1,0 +1,18 @@
+//victoria dynak
+//victoria.dynak61@login.cuny.edu
+//december 4 2022
+//loops
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i;
+    int j;
+    for(i=0;i<10;i++){
+        for(j=0;j<6;j++){
+            cout <<"10";
+        }
+        cout<<"\n";
+    }
+}
